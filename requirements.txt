@@ -1,0 +1,8 @@
+requests>=2.31.0
+pandas>=2.2.0
+numpy>=1.26.4
+matplotlib>=3.8.4  # Only needed if you're plotting
+scipy>=1.13.0       # Useful if you ever use probability calculations
+python-dotenv>=1.0.1  # If you're using a .env for API keys
+tqdm>=4.66.4         # For progress bars (looks like you're using it)
+yfinance>=0.2.40     # If you're pulling underlying stock prices
